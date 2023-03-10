@@ -1,0 +1,179 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: #333333;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 9vw;
+    background-color: whitesmoke;
+}
+.logo{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.menu{
+    width: 50%;
+    height: 9vw;
+    float: left;
+    text-align: right;
+    padding-top: 2%;
+    font-size: 2vw;
+}
+.menu a {
+    text-decoration: none;
+    color: black;
+    margin-right: 1%;
+}
+.bor_r{
+    border-right: solid black 0.05vw;
+    padding-right: 1%;
+}
+#logo{
+    height: 95%;
+    margin-top: 0.5%;
+    float: left;
+    margin-left: 1%;
+}
+.banner button{
+    padding: 1vw 2vw;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 48%;
+    margin-bottom: 2%;
+    border-radius: 5vw;
+    font-size: 0.9vw;
+    width: 13vw;
+    border: solid black 0.1vw;
+}
+.banner{
+    width: 100%;
+    height: 60vw;
+    background-image: url('img/top.jpg');
+    background-size: cover,contain;
+    background-position: center;
+    background-position: top;
+    background-repeat: no-repeat;
+    text-align: center;
+
+}
+.banner h1{
+    padding-top: 2%;
+    font-size: 3vw;
+}
+.oferta{
+    background-color: #b84a4a;
+    padding-top: 1%;
+    width: 100%;
+    height: 32vw;
+    border-top: solid black 0.1vw;
+    text-align: center;
+}
+.oferta h2{
+    padding-bottom: 3%;
+    font-size: 4vw;
+}
+.produkt{
+    width: 15%;
+    background-color: wheat;
+    height: 20vw;
+    float: left;
+    margin-left: 13.5%;
+    font-size: 2vw;
+    padding-top: 0.5%;
+    border: black solid 0.1vw;
+}
+.produkt p {
+    margin-top: 8%;
+}
+.img{
+    height: 11vw;
+    
+    text-align: center;
+}
+.o_nas{
+    width: 100%;
+    height: 59vw;
+    background-color: #b84a4a;
+    border-top: solid black 0.1vw;
+    padding-top: 2%;
+    font-size: 2vw;
+    text-align: center;
+}
+.o_nas h2{
+    padding-top: 1%;
+    font-size: 3vw;
+}
+.o_nas img{
+    width: 20%;
+    padding-top: 2%;
+}
+#historia{
+    margin: 0% 20%;
+}
+.o_nas p{
+    margin: 0% 1%;
+}
+.footer{
+    width: 100%;
+    height: 38vw;
+    background-color: #b84a4a;
+    border-top: solid black 0.1vw;
+    font-size: 2vw;
+    text-align: left;
+    padding-top: 1%;
+}
+.footer label{
+    font-size: 1vw;
+}
+.footer h2{
+    text-align: center;
+    padding-left: 0%;
+}
+.footer p{
+    font-size: 1vw;
+    text-align: center;
+    margin-top: 2%;
+}
+.formularz{
+    text-align: left;
+    margin-left: 37%;
+    margin-top: 3%;
+}
+input{
+    width: 40%;
+    height: 1.5vw;
+    font-size: 1vw;
+    border: 0.1vw solid black;
+    border-radius: 0vw;
+    outline: none;
+}
+textarea {
+    width: 40%;
+    height: 6vw;
+    resize: none;
+    font-size: 1vw;
+    outline: none;
+    border: 0.1vw solid black;
+
+}
+#submit{
+    text-align: center;
+    width: 5vw;
+    height: 2vw;
+    margin-left:15%;
+    border-radius: 0.6vw;
+    font-size: 1vw;
+}
+#submit:hover{
+    background-color: aquamarine;
+    transition: 0.4s;
+    color: black;
+}
